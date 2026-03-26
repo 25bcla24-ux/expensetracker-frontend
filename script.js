@@ -1,4 +1,4 @@
-const API = "https://expensetracker-backend-rh7e.onrender.com";
+const API = "https://expensetracker-backend-rh7e.onrender.com/api/expenses";
 
 async function addExpense() {
   const title = document.getElementById("title").value.trim();
@@ -77,5 +77,4 @@ async function deleteExpense(id) {
   loadExpenses();
 }
 
-// ✅ Load on start
 window.onload = loadExpenses;
