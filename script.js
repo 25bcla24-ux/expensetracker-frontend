@@ -1,4 +1,4 @@
-const API = "http://localhost:5000/api/expenses";
+const API = "https://expensetracker-backend-rh7e.onrender.com";
 
 async function addExpense() {
   const title = document.getElementById("title").value.trim();
